@@ -16,7 +16,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/damjantonkli/ngx-toastr"
+    "url": "https://github.com/damjantonkli/ngx-toastr.git",
+    "directory": "projects/ngx-toastr"
   },
   "exports": {
     "./toastr": {

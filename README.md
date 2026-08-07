@@ -385,9 +385,9 @@ ngOnInit() {
 2.  Change default icons (check, warning sign, etc)\
     Overwrite the css background-image: https://github.com/damjantonkli/ngx-toastr/blob/master/src/lib/toastr.css.
 3.  How do I use this in an ErrorHandler?\
-    See: https://github.com/damjantonkli/ngx-toastr/issues/179.
+    See: https://github.com/scttcper/ngx-toastr/issues/179.
 4.  How can I translate messages?\
-    See: https://github.com/damjantonkli/ngx-toastr/issues/201.
+    See: https://github.com/scttcper/ngx-toastr/issues/201.
 5.  How to handle toastr click/tap action?
     ```ts
     showToaster() {
@@ -406,7 +406,7 @@ ngOnInit() {
     ```ts
     toastClass: 'yourclass ngx-toastr'
     ```
-    See: https://github.com/damjantonkli/ngx-toastr/issues/594.
+    See: https://github.com/scttcper/ngx-toastr/issues/594.
 
 ## Previous Works
 
