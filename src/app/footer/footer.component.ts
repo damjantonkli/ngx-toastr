@@ -6,9 +6,9 @@ import { Component, VERSION, ChangeDetectionStrategy } from '@angular/core';
     <footer class="footer mb-4 mt-5">
       Angular {{ version }}
       <br />
-      <a href="https://github.com/scttcper/ngx-toastr/blob/master/LICENSE">MIT license</a>
+      <a href="https://github.com/damjantonkli/ngx-toastr/blob/master/LICENSE">MIT license</a>
       -
-      <a href="https://github.com/scttcper/ngx-toastr">Source</a>
+      <a href="https://github.com/damjantonkli/ngx-toastr">Source</a>
     </footer>
   `,
   changeDetection: ChangeDetectionStrategy.Eager,

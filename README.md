@@ -1,19 +1,9 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/scttcper/ngx-toastr/master/misc/documentation-assets/ngx-toastr-example.png" width="300" alt="Angular Toastr">
-  <br>
+  <img src="https://raw.githubusercontent.com/damjantonkli/ngx-toastr/master/misc/documentation-assets/ngx-toastr-example.png" width="300" alt="Angular Toastr">
   <h1>ngx-toastr</h1>
-  <br>
-  <a href="https://www.npmjs.org/package/ngx-toastr">
-    <img src="https://badge.fury.io/js/ngx-toastr.svg" alt="npm">
-  </a>
-  <a href="https://codecov.io/github/scttcper/ngx-toastr">
-    <img src="https://img.shields.io/codecov/c/github/scttcper/ngx-toastr.svg" alt="codecov">
-  </a>
-  <br>
-  <br>
 </div>
 
-DEMO: https://ngx-toastr.vercel.app
+This is a fork of [scttcper/ngx-toastr](https://github.com/scttcper/ngx-toastr).
 
 ## Features
 
@@ -363,7 +353,7 @@ That's it! No animations.
 ## Using A Custom Toast
 
 Create your toast component extending Toast see the demo's pink toast for an example
-https://github.com/scttcper/ngx-toastr/blob/master/src/app/pink.toast.ts
+https://github.com/damjantonkli/ngx-toastr/blob/master/src/app/pink.toast.ts
 
 ```typescript
 import { ToastrModule } from 'ngx-toastr';
@@ -393,11 +383,11 @@ ngOnInit() {
 ```
 
 2.  Change default icons (check, warning sign, etc)\
-    Overwrite the css background-image: https://github.com/scttcper/ngx-toastr/blob/master/src/lib/toastr.css.
+    Overwrite the css background-image: https://github.com/damjantonkli/ngx-toastr/blob/master/src/lib/toastr.css.
 3.  How do I use this in an ErrorHandler?\
-    See: https://github.com/scttcper/ngx-toastr/issues/179.
+    See: https://github.com/damjantonkli/ngx-toastr/issues/179.
 4.  How can I translate messages?\
-    See: https://github.com/scttcper/ngx-toastr/issues/201.
+    See: https://github.com/damjantonkli/ngx-toastr/issues/201.
 5.  How to handle toastr click/tap action?
     ```ts
     showToaster() {
@@ -416,7 +406,7 @@ ngOnInit() {
     ```ts
     toastClass: 'yourclass ngx-toastr'
     ```
-    See: https://github.com/scttcper/ngx-toastr/issues/594.
+    See: https://github.com/damjantonkli/ngx-toastr/issues/594.
 
 ## Previous Works
 
