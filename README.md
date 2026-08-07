@@ -27,7 +27,8 @@ Latest version available for each version of Angular
 | 16.2.0          | 15.x            |
 | 17.0.2          | 16.x            |
 | 18.x 19x        | >= 17.x < 23.x  |
-| current         | >= 20.x         |
+| 20.x.           | >= 20.x < 22.x  |
+| current         | >= 22.x         |
 
 ## Install
 
@@ -406,7 +407,7 @@ ngOnInit() {
     ```ts
     toastClass: 'yourclass ngx-toastr'
     ```
-    See: https://github.com/scttcper/ngx-toastr/issues/594.
+    See: https://github.com/damjantonkli/ngx-toastr/issues/594.
 
 ## Previous Works
 
