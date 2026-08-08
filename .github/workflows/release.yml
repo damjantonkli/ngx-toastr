@@ -34,4 +34,4 @@ jobs:
       - name: Release
         run: cd dist/ngx-toastr && npx semantic-release@latest
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN}}

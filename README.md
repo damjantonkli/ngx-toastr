@@ -3,7 +3,7 @@
   <h1>ngx-toastr</h1>
 </div>
 
-This is a fork of [scttcper/ngx-toastr](https://github.com/scttcper/ngx-toastr).
+This is a fork of [scttcper/ngx-toastr](https://github.com/scttcper/ngx-toastr)
 
 ## Features
 
@@ -407,7 +407,7 @@ ngOnInit() {
     ```ts
     toastClass: 'yourclass ngx-toastr'
     ```
-    See: https://github.com/damjantonkli/ngx-toastr/issues/594.
+    See: https://github.com/scttcper/ngx-toastr/issues/594.
 
 ## Previous Works
 
