@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, ElementRef, inject } from '@angular/core';
+import { Component, ElementRef, inject } from '@angular/core';
 import { ToastBase } from '../base-toast/base-toast.component';
 
 @Component({
@@ -11,7 +11,6 @@ import { ToastBase } from '../base-toast/base-toast.component';
     'animate.enter': 'toast-in',
   },
   standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class Toast<ConfigPayload = unknown> extends ToastBase<ConfigPayload> {
   readonly params = { easeTime: this.toastPackage.config.easeTime, easing: 'ease-in' };

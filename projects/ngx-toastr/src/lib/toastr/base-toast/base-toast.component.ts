@@ -1,6 +1,5 @@
 import {
   ApplicationRef,
-  ChangeDetectionStrategy,
   Component,
   computed,
   inject,
@@ -17,7 +16,6 @@ import { TimeoutsService } from '../../timeouts.service';
   selector: '[toast-component]',
   templateUrl: './base-toast.component.html',
   standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
   host: {
     '[class]': 'toastClasses()',
     '[style.display]': 'displayStyle()',

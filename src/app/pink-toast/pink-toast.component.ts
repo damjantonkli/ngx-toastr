@@ -1,4 +1,4 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component } from '@angular/core';
 
 import { Toast } from 'ngx-toastr';
 
@@ -6,7 +6,6 @@ import { Toast } from 'ngx-toastr';
   selector: '[pink-toast-component]',
   templateUrl: './pink-toast.component.html',
   styleUrl: './pink-toast.component.scss',
-  changeDetection: ChangeDetectionStrategy.Eager,
   host: {
     'animate.enter': 'animate-pink-in',
     'animate.leave': 'animate-pink-out',

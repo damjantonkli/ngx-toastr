@@ -1,9 +1,8 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component } from '@angular/core';
 import { Toast } from 'ngx-toastr';
 
 @Component({
   selector: '[bootstrap-toast-component]',
-  changeDetection: ChangeDetectionStrategy.Eager,
   templateUrl: './bootstrap-toast.component.html',
 })
 export class BootstrapToast extends Toast {
